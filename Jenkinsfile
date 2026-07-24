@@ -16,7 +16,7 @@ pipeline {
                 rsync -av --delete \
                 --exclude=".git" \
                 --exclude="Jenkinsfile" \
-                ./ ubuntu@YOUR_SERVER_IP:/var/www/html/
+                ./ ubuntu@51.20.54.186:/var/www/html/
                 '''
             }
         }
@@ -24,7 +24,7 @@ pipeline {
         stage('Reload Nginx') {
             steps {
                 sh '''
-                ssh ubuntu@YOUR_SERVER_IP "sudo systemctl reload nginx"
+                ssh ubuntu@51.20.54.186 "sudo systemctl reload nginx"
                 '''
             }
         }
