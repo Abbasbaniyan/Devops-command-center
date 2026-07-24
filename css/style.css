@@ -903,3 +903,34 @@ img{
     font-weight:bold;
 
 }
+
+footer{
+
+padding:40px;
+
+text-align:center;
+
+color:#8892b0;
+
+border-top:1px solid rgba(255,255,255,.08);
+
+margin-top:80px;
+
+}
+.hidden{
+
+opacity:0;
+
+transform:translateY(60px);
+
+transition:1s;
+
+}
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
