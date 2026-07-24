@@ -24,7 +24,7 @@
 <body>
 
     <body>
-
+<div class="grid-bg"></div>
     <!-- ================= NAVBAR ================= -->
 
     <header class="header">
@@ -64,24 +64,23 @@
 
 <section class="hero">
 
-    <div class="container hero-container">
+    <div class="container hero-grid">
 
-        <div class="hero-content">
+        <div class="hero-left">
 
             <div class="status-badge">
                 <span class="dot"></span>
-                System Online
+                SYSTEM ONLINE
             </div>
-            
-            <div class="hero-orb"></div>
-            
+
             <h1>
-                DEVOPS <br>
-                COMMAND CENTER
+                DevOps <br>
+                Command Center
             </h1>
 
             <p>
-                Build. Automate. Deploy. Monitor.
+                A real-world AWS & DevOps dashboard showcasing infrastructure,
+                automation, CI/CD pipelines, and deployment workflows.
             </p>
 
             <div class="hero-buttons">
@@ -91,8 +90,84 @@
                 </a>
 
                 <a href="#" class="btn secondary-btn">
-                    View Projects
+                    View Architecture
                 </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <div class="status-card">
+
+                <h3>Infrastructure Status</h3>
+
+                <div class="status-item">
+                    <span>AWS EC2</span>
+                    <span class="online">● Healthy</span>
+                </div>
+
+                <div class="status-item">
+                    <span>Jenkins</span>
+                    <span class="online">● Running</span>
+                </div>
+
+                <div class="status-item">
+                    <span>Docker</span>
+                    <span class="online">● Active</span>
+                </div>
+
+                <div class="status-item">
+                    <span>Terraform</span>
+                    <span class="online">● Ready</span>
+                </div>
+
+                <div class="status-item">
+                    <span>Ubuntu</span>
+                    <span class="online">● Stable</span>
+                </div>
+
+                <div class="status-item">
+                    <span>Nginx</span>
+                    <span class="online">● Live</span>
+                </div>
+
+                <hr>
+
+                <div class="info-row">
+                    <span>Region</span>
+                    <span>eu-north-1</span>
+                </div>
+
+                <div class="info-row">
+                    <span>Environment</span>
+                    <span>Production</span>
+                </div>
+
+                <div class="info-row">
+                    <span>Version</span>
+                    <span>v1.0.0</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= DEPLOYMENT ACTIVITY ================= -->
+
+<section class="deployment">
+
+    <div class="container">
+
+        <div class="deployment-card">
+
+            <h2>Live Deployment Activity</h2>
+
+            <div id="deploymentLogs">
 
             </div>
 
