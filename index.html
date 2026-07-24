@@ -85,7 +85,7 @@
 
             <div class="hero-buttons">
 
-                <a href="#" class="btn primary-btn">
+                <a href="#" class="btn primary-btn" id="openTerminal"></a>
                     Launch Console
                 </a>
 
@@ -214,7 +214,31 @@
     </div>
 
 </section>
+<!-- ================= TERMINAL ================= -->
 
+<div class="terminal-overlay" id="terminal">
+
+    <div class="terminal-window">
+
+        <div class="terminal-header">
+
+            <span class="red"></span>
+            <span class="yellow"></span>
+            <span class="green"></span>
+
+            <h3>DevOps Console</h3>
+
+            <button id="closeTerminal">✕</button>
+
+        </div>
+
+        <div class="terminal-body" id="terminalBody">
+
+        </div>
+
+    </div>
+
+</div>
 </body>
 
 </html>

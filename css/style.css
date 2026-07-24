@@ -713,3 +713,120 @@ img{
     font-weight:700;
 
 }
+/*================ TERMINAL ================*/
+
+.terminal-overlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.92);
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:9999;
+
+}
+
+.terminal-window{
+
+    width:80%;
+
+    max-width:1000px;
+
+    height:600px;
+
+    background:#090909;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    border:1px solid #222;
+
+}
+
+.terminal-header{
+
+    background:#1b1b1b;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:15px 20px;
+
+}
+
+.red,
+.yellow,
+.green{
+
+    width:14px;
+    height:14px;
+    border-radius:50%;
+
+}
+
+.red{
+
+    background:#ff5f57;
+
+}
+
+.yellow{
+
+    background:#febc2e;
+
+}
+
+.green{
+
+    background:#28c840;
+
+}
+
+.terminal-header h3{
+
+    margin-left:15px;
+
+    flex:1;
+
+    color:white;
+
+}
+
+#closeTerminal{
+
+    background:none;
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+
+    font-size:22px;
+
+}
+
+.terminal-body{
+
+    padding:25px;
+
+    color:#00ff88;
+
+    font-family:monospace;
+
+    line-height:2;
+
+    overflow:auto;
+
+}
