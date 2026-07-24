@@ -830,3 +830,76 @@ img{
     overflow:auto;
 
 }
+/*================ METRICS =================*/
+
+.metrics{
+
+    padding:100px 0;
+
+}
+
+.metrics-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+.metric-card{
+
+    background:#111827;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.3s;
+
+}
+
+.metric-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 0 25px rgba(0,217,255,.25);
+
+}
+
+.progress{
+
+    height:10px;
+
+    background:#1d293d;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    margin:20px 0;
+
+}
+
+.progress-bar{
+
+    height:100%;
+
+    width:0%;
+
+    background:#00D9FF;
+
+    transition:1s;
+
+}
+
+.metric-card span{
+
+    color:#00ff88;
+
+    font-weight:bold;
+
+}
